@@ -1,5 +1,7 @@
 .titulo{
-    background-image: "assets/img/logo.jpg";
-    text-align: right
-    
+    text-align: right;
+}
+#logo-tienda{
+    background-image: url(https://lucianaap.github.io/proyecto_alternativo_JaP/assets/img/logo.jpg);
+
 }
