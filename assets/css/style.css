@@ -10,8 +10,8 @@
 
 }
 body {
-    margin: 0;
-    padding: 60px 0 0 0;
+    margin: 0px;
+    padding: 60px 0px 0px 0px;
 }
  
 #page {
@@ -21,17 +21,51 @@ body {
  
 #header {
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     padding: 15px 20px;
     background-color: #333;
     font-size: 20px;
     color: #FFFFFF;
+
 }
  
-#content {
-    height: 100%;
-    overflow: auto;
-    padding: 0% 1% 0% 1%;
-    width: 98%;
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+}
+
+.parrafo-seccion{
+    text-align: center;
+}
+#lista-productos{
+    text-align: center;
+}
+#header a:link{
+color: white;
+}
+#header a:visited{
+    color: white;
+}
+.productos{
+padding: 0px 0px 0px 100px;
+}
+.portada{
+    padding: 0px 0px 0px 100px;
+}
+
+#tabla1{
+    background-color: rgb(218, 81, 104);
+}
+.titulo-tabla{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+.parrafo-tabla{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
 }
