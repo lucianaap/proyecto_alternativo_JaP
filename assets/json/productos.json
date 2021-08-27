@@ -1,0 +1,31 @@
+[
+        {
+            "nombre": "Dona de maracuyá",
+            "descripcion": "Dona bañada con una salsa de maracuyá",
+            "precio": 200,
+            "categoria": "Sin relleno",
+            "imgSrc": "img/prod1"
+        },
+        {
+            "nombre": "Dona de brownie",
+            "descripcion": "Dona bañada de chocolate y brownie",
+            "precio": 230 ,
+            "categoria": "Sin relleno",
+            "imgSrc": "img/prod2"
+        },
+        {
+            "nombre": "Dona de nutella",
+            "descripcion": "Dona bañada con chocolate, rellena de nutella",
+            "precio": 250,
+            "categoria": "Con relleno",
+            "imgSrc": "img/prod3"
+        },
+        {
+            "nombre": "Dona de cheescake",
+            "descripcion": "Dona bañada de salsa de frutos rojos, rellena de crema de cheescake",
+            "precio": 260,
+            "categoria": "Con relleno",
+            "imgSrc": "img/prod4"
+        }
+
+]
