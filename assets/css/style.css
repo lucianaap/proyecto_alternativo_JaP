@@ -1,7 +1,37 @@
 .titulo{
     text-align: right;
+    padding: 30px 0px 0px 0px;
 }
 #logo-tienda{
-    background-image: url(https://lucianaap.github.io/proyecto_alternativo_JaP/assets/img/logo.jpg);
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/donut-shop-logo-design-template-a84b57f90b4605813ff9e89d932e235b_screen.jpg?ts=1570474593);
+    height: 500px;
+    width: 1346px;
+    padding: 10px 10px 0px 0px;
 
+}
+body {
+    margin: 0;
+    padding: 60px 0 0 0;
+}
+ 
+#page {
+    margin: 0px auto;
+    width: 100%;
+}
+ 
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #333;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+ 
+#content {
+    height: 100%;
+    overflow: auto;
+    padding: 0% 1% 0% 1%;
+    width: 98%;
 }
