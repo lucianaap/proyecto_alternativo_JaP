@@ -2,30 +2,34 @@
         {
             "nombre": "Dona de maracuyá",
             "descripcion": "Dona bañada con una salsa de maracuyá",
+            "currency": "UYU",
             "precio": 200,
             "categoria": "Sin relleno",
-            "imgSrc": "img/prod1"
+            "imgSrc": "assets/img/prod1.jpg"
         },
         {
             "nombre": "Dona de brownie",
             "descripcion": "Dona bañada de chocolate y brownie",
+            "currency": "UYU",
             "precio": 230 ,
             "categoria": "Sin relleno",
-            "imgSrc": "img/prod2"
+            "imgSrc": "assets/img/prod2.jpg"
         },
         {
             "nombre": "Dona de nutella",
             "descripcion": "Dona bañada con chocolate, rellena de nutella",
+            "currency": "UYU",
             "precio": 250,
             "categoria": "Con relleno",
-            "imgSrc": "img/prod3"
+            "imgSrc": "assets/img/prod3"
         },
         {
             "nombre": "Dona de cheescake",
             "descripcion": "Dona bañada de salsa de frutos rojos, rellena de crema de cheescake",
+            "currency": "UYU",
             "precio": 260,
             "categoria": "Con relleno",
-            "imgSrc": "img/prod4"
+            "imgSrc": "assets/img/prod4"
         }
 
 ]
