@@ -1,4 +1,4 @@
-const products_url = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/productoss.json"
+const products_url = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/productosss.json"
 
 var getJSONData = function(url){
   var result = {};
