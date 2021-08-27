@@ -1,3 +1,5 @@
+const products_url = "https://lucianaap.github.io/proyecto_alternativo_JaP/productos.json"
+
 var getJSONData = function(url){
     var result = {};
     showSpinner();
