@@ -21,7 +21,7 @@
             "currency": "UYU",
             "precio": 250,
             "categoria": "Con relleno",
-            "imgSrc": "assets/img/prod3"
+            "imgSrc": "assets/img/prod3.jpg"
         },
         {
             "nombre": "Dona de cheescake",
@@ -29,7 +29,7 @@
             "currency": "UYU",
             "precio": 260,
             "categoria": "Con relleno",
-            "imgSrc": "assets/img/prod4"
+            "imgSrc": "assets/img/prod4.jpg"
         }
 
 ]
