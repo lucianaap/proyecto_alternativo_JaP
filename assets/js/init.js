@@ -1,6 +1,6 @@
 const products_url = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/productosss.json"
 const products_info_donaMaracuya = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info-dona_maracuya.json"
-const products_info_donaBrownie = ""
+const products_info_donaBrownie = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info_dona-brownie.json"
 
 var getJSONData = function(url){
   var result = {};
