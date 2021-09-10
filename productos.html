@@ -7,13 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LuNa Donuts</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/js/init.js"></script>
 </head>
 
 <body>
     <div id="page">
         <div id="header">
             <a class="portada" href="inicio.html">Portada</a>
-            <a class="productos" href="productos.html">Productos</a> 
+            <a class="productos" href="productos.html">Productos</a>
+
+            <div id="info-user">
+            
+                <p id="user"></p>
+            
+            </div>
+        
         </div>
 
     </div>
@@ -21,11 +29,26 @@
     <div>
         <h2 class="titulo-seccion">PRODUCTOS</h2>
         <p class="parrafo-seccion">Aquí verás todas las donas que tenemos</p>
-        <div id="lista-productos">
-        </div>
 
     </div>
-    
+    <div>
+        <p>Filtar por precio</p>
+        <input type="number" id="precio-minimo" value="precio-minimo" placeholder="Ingrese precio minimo"/>
+        <br />
+        <input type="number" id="precio-maximo" value="precio-minimo" placeholder="Ingrese precio máximo"/>
+        <br /><br />
+        <input type="button" id="filtrar" value="Filtrar"/>
+        <input type="button" value="Limpiar" id="limpiar"/>
+
+
+
+    </div>
+
+    <div id="lista-productos">
+    </div>
+
+
+
     <script src="assets/js/init.js"></script>
     <script src="assets/js/productos.js"></script>
 </body>

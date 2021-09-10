@@ -23,4 +23,18 @@ var getJSONData = function(url){
 }
 
 document.addEventListener("DOMContentLoaded", function(e){
+
+  let userLogged = localStorage.getItem("User-Logged")
+  let userInfo = document.getElementById("user-info")
+  let user = document.getElementById("user")
+
+  if (userLogged){
+
+    userLogged = JSON.parse(userLogged)
+
+    user.innerText = user.innerText + "Usuario logueado: " + userLogged.email;
+  }
+
+
+
 });

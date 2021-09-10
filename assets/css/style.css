@@ -105,7 +105,7 @@ padding: 0px 0px 0px 100px;
 #login-button:hover {
     background-color: rgb(71, 13, 33);
  }
- #save-button{
+ #btn-save{
     align-items: center;
     margin: 0px 0px 0px 650px;
     background-color: #d6a2a2;
@@ -114,12 +114,11 @@ padding: 0px 0px 0px 100px;
     margin: 0px 0px 0px 630px;
 }
 
-#save-button:hover {
+#btn-save:hover {
     background-color: palevioletred;
  
 }
-.usuario{
-    color: white;
-    background-color: #333;
-    margin: 0px 0px 0px 650px;
+
+#user{
+    margin: 0px 0px 0px 950px;
 }
