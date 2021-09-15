@@ -189,87 +189,8 @@ text-align: center;
     margin: 9px 0px 0px 0px;
     
   }
-  #autos-soldCount{
-    float: right;
-  }
-  
-  .txt-ordenar{
-    margin: 0px 0px -22px 315px;
-    color: rgb(131, 90, 15);
-  }
-  #search-options{
-    margin: 0px 0px 20px 770px;
-  }
-  
-  .ordenamiento{
-    background-color: rgb(245, 211, 147);
-  }
-  
-  .ordenamiento:hover{
-    background-color: rgb(131, 90, 15);
-  }
-  
-  
-  #txt-precio{
-    margin: 0px 120px -25px 0px;
-    color: rgb(131, 90, 15);
-    font-weight: bolder;
-  }
-  #filtrado{
-    margin: 0px 0px 20px 570px;
-  }
-  
-  #filtroPrecioMinimo{
-   background-color: rgb(245, 211, 147);
-   text-align: center;
-   
-  }
-  
-  #filtroPrecioMaximo{
-    background-color: rgb(245, 211, 147);
-    text-align: center;
-  }
-  
-  #buscar{
-    margin: 0px 0px 20px 800px;
-  }
-  
-  #txt-buscar{
-    margin: 0px 410px -27px 0px;
-    color: rgb(131, 90, 15);
-    font-weight: bolder;
-  }
-  #filtro{
-    background-color: rgb(245, 211, 147);
-  }
-  #filtro:hover{
-    background-color: rgb(161, 110, 14) ;
-  }
-  #buscador{
-    background-color: rgb(245, 211, 147);
-    text-align: center;
-  }
-  #limpiarBusqueda{
-    background-color: rgb(245, 211, 147);
-  }
-  #limpiarBusqueda:hover{
-    background-color: rgb(161, 110, 14) ;
-  }
-  
-  #limpiar{
-    background-color: rgb(245, 211, 147);
-  }
-  #limpiar:hover{
-    background-color: rgb(161, 110, 14) ;
-  }
-  
-  #mas-info{
-    background-color: rgb(245, 211, 147);
-    float: right;
-  }
-  #mas-info:hover{
-    background-color: rgb(161, 110, 14) ;
-  }
+
+
   
   #informacion_adicional{
     text-align: left;
