@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(e){
 
     userLogged = JSON.parse(userLogged)
 
-    user.innerText = user.innerHTML + "Usuario logueado: " + userLogged.email;
+    user.innerHTML = user.innerHTML + "Usuario logueado: " + userLogged.email;
   }
 
 
