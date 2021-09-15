@@ -136,3 +136,195 @@ text-align: center;
 #donas-precio{
     text-align: center;
 }
+.checked {
+    color: orange;
+  }
+  
+  #lista-productos{
+     border-style: groove;
+  
+   }
+  
+   #logo-login{
+     width: 300px;
+     height: 200px;
+   }
+  
+   #imagen-producto{
+     float: left;
+     margin: 0px 100px 0px 0px;
+     width: 200px;
+     border-style: double;
+   }
+   
+   #imagen-producto:hover{
+     -webkit-transform: scale(1.4);
+     -moz-transform: scale(1.4);
+     -o-transform: scale(1.4);
+     -ms-transform: scale(1.4);
+     transform: scale(1.4);
+   }
+  
+  #autos-name{
+    font-weight: bolder;
+  }
+  #btn-save{
+    background-color: skyblue;
+     border-radius: 8px;
+     border: 2px solid black;
+     font-size: 15px;
+     font-weight: bolder;
+     padding: 10px 25px;
+     transition: 0.3s;
+     display: inline-block;
+     text-decoration: none;
+     cursor: pointer;
+  }
+  
+  #btn-save:hover {
+    background-color: rgb(199, 75, 116);
+  }
+  #info-user{
+    color: white;
+    margin: 9px 0px 0px 0px;
+    
+  }
+  #autos-soldCount{
+    float: right;
+  }
+  
+  .txt-ordenar{
+    margin: 0px 0px -22px 315px;
+    color: rgb(131, 90, 15);
+  }
+  #search-options{
+    margin: 0px 0px 20px 770px;
+  }
+  
+  .ordenamiento{
+    background-color: rgb(245, 211, 147);
+  }
+  
+  .ordenamiento:hover{
+    background-color: rgb(131, 90, 15);
+  }
+  
+  
+  #txt-precio{
+    margin: 0px 120px -25px 0px;
+    color: rgb(131, 90, 15);
+    font-weight: bolder;
+  }
+  #filtrado{
+    margin: 0px 0px 20px 570px;
+  }
+  
+  #filtroPrecioMinimo{
+   background-color: rgb(245, 211, 147);
+   text-align: center;
+   
+  }
+  
+  #filtroPrecioMaximo{
+    background-color: rgb(245, 211, 147);
+    text-align: center;
+  }
+  
+  #buscar{
+    margin: 0px 0px 20px 800px;
+  }
+  
+  #txt-buscar{
+    margin: 0px 410px -27px 0px;
+    color: rgb(131, 90, 15);
+    font-weight: bolder;
+  }
+  #filtro{
+    background-color: rgb(245, 211, 147);
+  }
+  #filtro:hover{
+    background-color: rgb(161, 110, 14) ;
+  }
+  #buscador{
+    background-color: rgb(245, 211, 147);
+    text-align: center;
+  }
+  #limpiarBusqueda{
+    background-color: rgb(245, 211, 147);
+  }
+  #limpiarBusqueda:hover{
+    background-color: rgb(161, 110, 14) ;
+  }
+  
+  #limpiar{
+    background-color: rgb(245, 211, 147);
+  }
+  #limpiar:hover{
+    background-color: rgb(161, 110, 14) ;
+  }
+  
+  #mas-info{
+    background-color: rgb(245, 211, 147);
+    float: right;
+  }
+  #mas-info:hover{
+    background-color: rgb(161, 110, 14) ;
+  }
+  
+  #informacion_adicional{
+    text-align: left;
+  }
+  
+  #productName{
+    text-align: center;
+  }
+  
+  #usuario_comentario{
+    font-weight: bolder;
+  }
+  
+  #usuario_puntuación{
+    float: right;
+  }
+  
+  #form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: black;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+  
+  #btnEnviar{
+    background-color: rgb(245, 211, 147);
+  }
+  #btnEnviar:hover{
+    background-color: rgb(161, 110, 14) ;
+  }
