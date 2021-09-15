@@ -165,7 +165,7 @@ text-align: center;
      transform: scale(1.4);
    }
   
-  #autos-name{
+  #donas-name{
     font-weight: bolder;
   }
   #btn-save{
@@ -249,3 +249,4 @@ text-align: center;
   #btnEnviar:hover{
     background-color: rgb(161, 110, 14) ;
   }
+
