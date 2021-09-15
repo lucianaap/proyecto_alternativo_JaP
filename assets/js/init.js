@@ -1,5 +1,5 @@
 var PRODUCTS_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/productosss.json"
-var PRODUCT_INFO_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info-dona_maracuya.json"
+var PRODUCT_INFO_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info-dona_maracuyaa.json"
 var PRODUCT_INFO_COMMENTS_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/comments.json"
 
 var getJSONData = function(url){
