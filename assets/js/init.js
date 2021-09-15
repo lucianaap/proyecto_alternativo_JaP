@@ -1,6 +1,6 @@
-const products_url = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/productosss.json"
-const products_info_donaMaracuya = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info-dona_maracuya.json"
-const products_info_donaBrownie = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info_dona-brownie.json"
+var PRODUCTS_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/productosss.json"
+var PRODUCT_INFO_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/products-info-dona_maracuya.json"
+var PRODUCT_INFO_COMMENTS_URL = "https://lucianaap.github.io/proyecto_alternativo_JaP/assets/json/comments.json"
 
 var getJSONData = function(url){
   var result = {};
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(e){
 
     userLogged = JSON.parse(userLogged)
 
-    user.innerText = user.innerText + "Usuario logueado: " + userLogged.email;
+    user.innerText = user.innerHTML + "Usuario logueado: " + userLogged.email;
   }
 
 

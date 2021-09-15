@@ -32,17 +32,29 @@
 
     </div>
     <div>
-        <p>Filtar por precio</p>
-        <input type="number" id="precio-minimo" value="precio-minimo" placeholder="Ingrese precio minimo"/>
-        <br />
-        <input type="number" id="precio-maximo" value="precio-minimo" placeholder="Ingrese precio máximo"/>
-        <br /><br />
-        <input type="button" id="filtrar" value="Filtrar"/>
-        <input type="button" value="Limpiar" id="limpiar"/>
-
-
-
-    </div>
+        <div>
+          <p class="txt-ordenar"><b>Ordenar por</b>
+          <div id="search-options">
+            <input class="ordenamiento" type="button" id="btn-min-precio" value="Menor precio">
+            <input class="ordenamiento" type="button" id="btn-max-precio" value="Mayor precio">
+          </div>
+          <div >
+            <p id="txt-precio">Filtrar por precio</p>
+            <div id="filtrado">
+              <input type="number" placeholder="Precio mínimo" id="filtroPrecioMinimo">
+              <input type="number" placeholder="Precio máximo" id="filtroPrecioMaximo">
+              <input type="button" id="filtro" onclick="filtrarPrecios()" value="Filtrar"> 
+              <input type="button" id="limpiar" onclick="limpiarFiltro()" value="Vaciar Campos">
+            </div>
+  
+          </div>
+          <div id="buscar">
+            <p id="txt-buscar">Buscador</p>
+            <input type="search" id="buscador" placeholder="Nombre de la dona">
+            <input type="button" id="limpiarBusqueda" value="Limpiar busqueda">
+          </div>
+        </div>
+  
 
     <div id="lista-productos">
     </div>

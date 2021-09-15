@@ -1,0 +1,24 @@
+[{
+    "score": 3,
+    "description": "Ya llevo comprando estas donas mucho tiempo y son ricas",
+    "user": "juan_pedro",
+    "dateTime": "2020-02-25 18:03:52"
+},
+{
+    "score": 5,
+    "description": "Son las donas mas ricas que he comido en la vida, además en relación precio/calidad vale la pena!",
+    "user": "maria_sanchez",
+    "dateTime": "2020-01-17 13:42:18"
+},
+{
+    "score": 4,
+    "description": "Casi todo bien!, excepto por algún detalle de gusto personal",
+    "user": "paola_perez",
+    "dateTime": "2020-03-14 09:05:13"
+},
+{
+    "score": 5,
+    "description": "Un espectáculo de donas!",
+    "user": "pablo_gomez",
+    "dateTime": "2020-02-21 15:05:22"
+}]

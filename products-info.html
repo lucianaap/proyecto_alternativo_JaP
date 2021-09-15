@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion adicional</title>
+    <script src="./assets/js/init.js" defer></script>
+    <script src="./assets/js/products-info.js"defer></script>
+</head>
+<body>
+    <div class="text-center p-4">
+        <h2>Productos</h2>
+        <br>
+        <p class="lead">Verás aquí la información adicional de cada producto</p>
+        <div>
+          <p class="small alert-warning py-3"><strong>Nota: </strong>por simplicidad, se mostrará solo la información
+            adicional del producto
+            <strong>Dona de Maracuyá</strong>.
+          </p>
+        </div>
+        <div>
+          <div id="informacion_adicional">
+            <h3 id="productName"></h3>
+            <hr class="my-3">
+            <dl>
+              <dt>Descripción</dt>
+              <dd>
+                <p id="productDescription"></p>
+              </dd>
+    
+              <dt>Precio</dt>
+              <dd>
+                <p id="productCost"></p>
+              </dd>
+              <dt>Moneda</dt>
+              <dd>
+                <p id="productCurrency"></p>
+              </dd>
+    
+              <dt>Categoría a la que pertenece</dt>
+              <dd>
+                <p id="productCategory"></p>
+              </dd>
+    
+    
+              <dt>Imágenes ilustrativas</dt>
+              <dd>
+                <div class="row text-center text-lg-left pt-2" id="productImagesGalleryAdicional">
+                </div>
+              </dd>
+              <a type="button" class="btn btn-light btn-lg btn-block" href="productos.html">Ver lista de productos</a>
+              <br /><br />
+    
+              <dt>Quiénes lo han comprado opinan:</dt>
+              <dd>
+                <div id="productComments"></div>
+              </dd>
+              <br /><br />
+              <dt>¿Has comprado este artículo? Dinos tu opinión</dt>
+    
+              <dd>
+                <div id="addComments">
+                  <hr />
+                  <form>
+                    <textarea id="addNewComments" rows="5" cols="150" placeholder="Cuentanos tu experiencia" required></textarea>
+                    <div id="addPuntuacion">
+                    </div>
+                    <form>
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1"><i class="active fa fa-star"></i></label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2"><i class="active fa fa-star"></i></label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3"><i class="active fa fa-star"></i></label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4"><i class="active fa fa-star"></i></label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5"><i class="active fa fa-star"></i></label>
+                      </p>
+                      <input id="btnEnviar" type="button" value="Comentar">
+                    </form>
+                      
+                
+                </div>
+              </dd>
+    
+            </dl>
+    
+          </div>
+    
+    
+</body>
+</html>

@@ -122,3 +122,17 @@ padding: 0px 0px 0px 100px;
 #user{
     margin: 0px 0px 0px 950px;
 }
+
+#imagen-producto{
+    float: left;
+    margin: 0px 0px 20px 100px;
+   width: 150px;
+}
+
+#donas-description{
+text-align: center;
+}
+
+#donas-precio{
+    text-align: center;
+}
