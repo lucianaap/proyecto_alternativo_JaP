@@ -36,6 +36,27 @@ function showCommentsArray(array) {
     document.getElementById("productComments").innerHTML = comentario;
 }
 
+function resetTest(){
+    if(confirm("ATENCIÓN!. Los datos del test se van a reiniciar.")) {
+        document.getElementById("test").reset();
+        parent.location.reload();
+        }
+    }
+
+   
+    let valorA = document.getElementsByName("pregunta1").value;
+    let valorB = document.getElementsByName("pregunta2").value;
+    let valorC = document.getElementsByName("pregunta3").value;
+    let valorD = document.getElementsByName("pregunta4").value;
+    let resultadoTest = valorA + valorB + valorC + valorD;
+
+    function showResultTest(){
+    if (resultadoTest >= 150){
+        document.querySelector("#msjTestResultado").innerHTML = "Usted es una persona a la que realmente le interesa mucho cocinar y la comida casera, antes que comprar comida";
+    } else{
+        document.querySelector("#msjTestResultado").innerHTML = "Usted es una persona que prefiere la comodidad de comprar comida ya preparada que ponerse a cocinar"; 
+    }
+}
 
 
 
@@ -50,7 +71,6 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
             let productNameHTML = document.getElementById("productName");
             let productDescriptionHTML = document.getElementById("productDescription");
-            let productSoldCountHTML = document.getElementById("soldCount");
             let productCostHTML = document.getElementById("productCost");
             let productCurrencyHTML = document.getElementById("productCurrency");
             let productCategoryHTML = document.getElementById("productCategory");
@@ -71,5 +91,8 @@ document.addEventListener("DOMContentLoaded", function (e) {
             showCommentsArray(commentsArray);
         }
     });
+
+document.querySelector("#btnResultado").addEventListener("click", showResultTest)
+
 
 });
